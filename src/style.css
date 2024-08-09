@@ -88,9 +88,10 @@ button {
   transition: color 300ms ease, background-color 200ms 100ms ease;
 }
 
-.button.button--outline:hover {
+.button:hover.button--outline {
   color: var(--color-pink-100);
-  background-color: var(--color-pink-100);
+  background-color: var(--color-neutral-100);
+  border-color: var(--color-pink-100);
 }
 
 .button--form {
