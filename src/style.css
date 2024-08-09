@@ -118,6 +118,9 @@ button {
   }
 
   .button--outline {
+    --width: 8.5rem;
+    --height: 2.5rem;
+    padding-block: 0.5rem;
     font-size: var(--font-size-300);
     line-height: 1.375;
   }
