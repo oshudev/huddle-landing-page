@@ -158,3 +158,50 @@ button {
     height: 2.375rem;
   }
 }
+
+.hero {
+  margin-top: 5.5rem;
+  margin-inline: auto;
+  padding-inline: 2.5rem;
+  max-width: 68.625rem;
+}
+
+.hero .content-container {
+  margin-bottom: 6.5rem;
+}
+
+.hero .content-container .text-container {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.hero .content-container .text-container h1 {
+  margin-bottom: 1.5rem;
+  font-size: var(--font-size-500);
+}
+
+.hero .content-container .button {
+  margin-inline: auto;
+}
+
+.hero .image-container img {
+  width: 100%;
+}
+
+@media only screen and (min-width: 1024px) {
+  .hero .content-container {
+    margin-bottom: 7.5rem;
+  }
+
+  .hero .content-container .text-container h1 {
+    margin-right: 3px;
+    margin-bottom: calc(1.5rem + 2px);
+    font-size: var(--font-size-700);
+  }
+
+  .hero .content-container .text-container p {
+    margin-inline: auto;
+    max-width: 37.5rem;
+    font-size: var(--font-size-400);
+  }
+}
