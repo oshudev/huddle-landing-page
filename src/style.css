@@ -60,12 +60,10 @@ button {
 
 .button {
   --width: 12.5rem;
-  --height: 2.5rem;
   display: block;
   max-width: var(--width);
   min-width: fit-content;
   width: 100%;
-  height: var(--height);
   padding-block: 0.75rem;
   font-size: var(--font-size-100);
   font-weight: var(--font-weight-bold);
@@ -82,7 +80,6 @@ button {
 
 .button--outline {
   --width: 5rem;
-  --height: 1.5rem;
   padding-block: 0.25rem;
   font-size: 0.625rem;
   font-weight: var(--font-weight-regular);
@@ -102,7 +99,6 @@ button {
 
 .button--form {
   --width: 10rem;
-  --height: 3rem;
   padding-block: 0.75rem;
   font-size: var(--font-size-300);
   border: none;
