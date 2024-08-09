@@ -107,15 +107,13 @@ button {
 
 @media only screen and (min-width: 1024px) {
   .button {
-    --width: calc(var(--width) * 2);
-    --height: calc(var(--height) * 2);
+    --width: 25rem;
     padding-block: 1.625rem;
     font-size: var(--font-size-400);
   }
 
   .button--outline {
     --width: 8.5rem;
-    --height: 2.5rem;
     padding-block: 0.5rem;
     font-size: var(--font-size-300);
     line-height: 1.375;
