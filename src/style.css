@@ -6,7 +6,8 @@
   --color-red: hsl(0, 100%, 63%);
   --color-neutral-100: hsl(0, 0%, 100%);
   --color-neutral-200: hsl(207, 100%, 98%);
-  --color-neutral-300: hsl(192, 100%, 9%);
+  --color-neutral-300: hsl(208, 12%, 55%);
+  --color-neutral-400: hsl(192, 100%, 9%);
 
   --font-family-default: "Open Sans", sans-serif;
   --font-family-secondary: "Poppins", sans-serif;
@@ -37,7 +38,7 @@ body {
   font-family: var(--font-family-default);
   font-size: var(--font-size-200);
   line-height: 1.5;
-  color: var(--color-neutral-300);
+  color: var(--color-neutral-400);
   background-color: var(--color-neutral-100);
 }
 
