@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --color-pink-100: hsl(321, 100%, 78%);
+  --color-pink-200: hsl(322, 100%, 66%);
+  --color-red: hsl(0, 100%, 63%);
+  --color-neutral-100: hsl(0, 0%, 100%);
+  --color-neutral-200: hsl(207, 100%, 98%);
+  --color-neutral-300: hsl(192, 100%, 9%);
+
+  --font-family-default: "Open Sans", sans-serif;
+  --font-family-secondary: "Poppins", sans-serif;
+
+  --font-size-100: 0.75rem;
+  --font-size-200: 0.875rem;
+  --font-size-300: 1rem;
+  --font-size-400: 1.25rem;
+  --font-size-500: 1.5rem;
+  --font-size-600: 2.5rem;
+  --font-size-700: 3rem;
+
+  --font-weight-bold: 700;
+  --font-weight-semibold: 600;
+  --font-weight-regular: 400;
+
+  --border-round: 0.375rem;
+  --border-pill: 999rem;
+}
