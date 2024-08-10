@@ -238,13 +238,13 @@ button {
 
 .stats__number {
   margin-bottom: 2px;
-  font-size: 3.75rem;
+  font-size: clamp(3.75rem, 0rem + 9.375vw, 6rem);
   font-weight: var(--font-weight-bold);
 }
 
 .stats__description {
   font-family: var(--font-family-default);
-  font-size: var(--font-size-300);
+  font-size: clamp(1, 0.167rem + 2.083vw, 1.5rem);
   font-weight: var(--font-weight-regular);
   color: var(--color-neutral-300);
 }
@@ -267,13 +267,5 @@ button {
 
   .stats__img {
     --dim: 3.5rem;
-  }
-
-  .stats__number {
-    font-size: 6rem;
-  }
-
-  .stats__description {
-    font-size: var(--font-size-500);
   }
 }
