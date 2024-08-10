@@ -269,3 +269,74 @@ button {
     --dim: 3.5rem;
   }
 }
+
+.feature-panel {
+  margin-block: 12.5rem;
+  padding-inline: 1.75rem;
+}
+
+.feature-panel:nth-child(odd) {
+  position: relative;
+  background-color: var(--color-neutral-200);
+}
+
+.feature-panel .split-panel-media-container {
+  --dim: 17.5rem;
+  display: flex;
+  align-items: center;
+  margin-inline: auto;
+  max-width: var(--dim);
+  height: var(--dim);
+}
+
+.feature-panel .split-panel-media-container img {
+  width: 100%;
+}
+
+.feature-panel .split-panel-solid .text-container {
+  margin-top: 2.5rem;
+  margin-inline: auto;
+  max-width: 32.5rem;
+  text-align: center;
+}
+
+.feature-panel .split-panel-solid .text-container h2 {
+  margin-bottom: 1rem;
+  font-size: clamp(
+    var(--font-size-400),
+    -0.833rem + 5.208vw,
+    var(--font-size-600)
+  );
+}
+
+@media only screen and (min-width: 1024px) {
+  .feature-panel__container {
+    display: flex;
+    align-items: center;
+    column-gap: 7.5rem;
+    margin-inline: auto;
+    max-width: 75rem;
+  }
+
+  .feature-panel:nth-child(odd) .feature-panel__container {
+    flex-direction: row-reverse;
+    column-gap: 6.25rem;
+    max-width: 73.75rem;
+  }
+
+  .feature-panel .split-panel-media-container {
+    --dim: 35rem;
+  }
+
+  .feature-panel .split-panel-solid {
+    flex: 1;
+  }
+
+  .feature-panel .split-panel-solid .text-container {
+    text-align: left;
+  }
+
+  .feature-panel .split-panel-solid .text-container p {
+    font-size: var(--font-size-300);
+  }
+}
