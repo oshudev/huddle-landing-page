@@ -209,8 +209,8 @@ button {
   display: flex;
   justify-content: space-between;
   gap: 5.5rem;
-  margin-top: 8.875rem;
   margin-inline: auto;
+  padding-top: 7.5rem;
   padding-inline: 1.5rem;
   max-width: 58rem;
 }
@@ -262,7 +262,7 @@ button {
 
 @media screen and (min-width: 1024px) {
   .stats {
-    margin-top: 10rem;
+    padding-block: 10rem 7.375rem;
   }
 
   .stats__img {
