@@ -209,7 +209,7 @@ button {
   display: flex;
   justify-content: space-between;
   gap: 5.5rem;
-  padding-top: 8.875rem;
+  margin-top: 8.875rem;
   margin-inline: auto;
   padding-inline: 1.5rem;
   max-width: 58rem;
