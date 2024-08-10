@@ -280,6 +280,39 @@ button {
   background-color: var(--color-neutral-200);
 }
 
+.feature-panel .curve {
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+
+.feature-panel .curve img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+.feature-panel .curve--top {
+  bottom: 100%;
+}
+
+.feature-panel .curve--bottom {
+  top: 100%;
+}
+
+.feature-panel .curve.desktop {
+  display: none;
+}
+
+@media only screen and (min-width: 640px) {
+  .feature-panel .curve.mobile {
+    display: none;
+  }
+
+  .feature-panel .curve.desktop {
+    display: block;
+  }
+}
+
 .feature-panel .split-panel-media-container {
   --dim: 17.5rem;
   display: flex;
@@ -310,6 +343,10 @@ button {
 }
 
 @media only screen and (min-width: 1024px) {
+  .feature-panel {
+    margin-block: 11.25rem;
+  }
+
   .feature-panel__container {
     display: flex;
     align-items: center;
