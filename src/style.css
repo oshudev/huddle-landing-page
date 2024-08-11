@@ -117,7 +117,7 @@ button {
     box-shadow: 0 6px 13px 0 var(--color-neutral-opaque);
   }
 
-  .button--outline {
+  .button.button--outline {
     --width: 8.5rem;
     padding-block: 0.5rem;
     font-size: var(--font-size-300);
