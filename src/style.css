@@ -451,6 +451,7 @@ button {
 
 .footer .footer__newsletter .text-container {
   margin-bottom: 2rem;
+  max-width: 21.5rem;
 }
 
 .footer .footer__newsletter .text-container h2 {
@@ -505,6 +506,16 @@ button {
   }
 }
 
+@media only screen and (min-width: 1024px) {
+  .footer .form .form__control {
+    width: 20rem;
+  }
+}
+
+.footer .contact-row {
+  max-width: 21.25rem;
+}
+
 .footer .contact-row .content-container {
   margin-bottom: 2.5rem;
 }
@@ -557,4 +568,34 @@ button {
 
 .footer .social-links a svg {
   height: 1.5rem;
+}
+
+@media only screen and (min-width: 1024px) {
+  .footer {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 2rem;
+    justify-content: space-between;
+    padding: 7.25rem 7.5rem 6.375rem;
+  }
+
+  .footer .footer__newsletter {
+    margin-bottom: 0;
+  }
+
+  .footer .footer__newsletter .text-container h2 {
+    font-size: var(--font-size-500);
+  }
+
+  .footer .form {
+    flex-wrap: nowrap;
+  }
+
+  .footer .form .form__control {
+    flex: none;
+  }
+
+  .footer .form .button {
+    width: 10rem;
+  }
 }
