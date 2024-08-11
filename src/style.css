@@ -82,7 +82,7 @@ button {
   background-color: var(--color-pink-100);
 }
 
-.button--outline {
+.button.button--outline {
   --width: 5rem;
   padding-block: 0.25rem;
   font-size: 0.625rem;
@@ -101,7 +101,7 @@ button {
   border-color: var(--color-pink-100);
 }
 
-.button--form {
+.button.button--form {
   --width: 10rem;
   padding-block: 0.75rem;
   font-size: var(--font-size-300);
