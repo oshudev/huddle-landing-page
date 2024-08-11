@@ -90,7 +90,7 @@ button {
   color: var(--color-pink-200);
   background-color: var(--color-neutral-100);
   border: 1px solid var(--color-pink-200);
-  box-shadow: 0 0 5px 0 hsla(322, 100%, 66%, 0.2188);
+  box-shadow: 0 0 5px 0 var(--color-pink-opaque);
   transition: color 300ms ease, background-color 200ms 100ms ease;
 }
 
