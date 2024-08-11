@@ -74,6 +74,7 @@ button {
   color: var(--color-neutral-100);
   background-color: var(--color-pink-200);
   border-radius: var(--border-pill);
+  box-shadow: 0 3px 7px 0 var(--color-neutral-opaque);
   transition: background-color 300ms ease;
 }
 
@@ -113,6 +114,7 @@ button {
     --width: 25rem;
     padding-block: 1.625rem;
     font-size: var(--font-size-400);
+    box-shadow: 0 6px 13px 0 var(--color-neutral-opaque);
   }
 
   .button--outline {
