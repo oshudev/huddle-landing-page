@@ -106,7 +106,7 @@ button {
   padding-block: 0.75rem;
   font-size: var(--font-size-300);
   border: none;
-  border-radius: calc(var(--border-pill) - 1px);
+  border-radius: calc(var(--border-round) - 1px);
 }
 
 @media only screen and (min-width: 1024px) {
