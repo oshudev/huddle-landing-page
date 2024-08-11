@@ -409,8 +409,7 @@ button {
 
 .footer {
   position: relative;
-  padding-inline: 1.75rem;
-  padding-bottom: 2.875rem;
+  padding: 3.5rem 1.75rem 2.875rem;
   color: var(--color-neutral-100);
   background-color: var(--color-neutral-400);
 }
@@ -447,6 +446,7 @@ button {
 
 .footer .footer__newsletter {
   margin-bottom: 6.5rem;
+  max-width: 32.5rem;
 }
 
 .footer .footer__newsletter .text-container {
@@ -572,11 +572,16 @@ button {
 
 @media only screen and (min-width: 1024px) {
   .footer {
+    padding-block: 7.25rem 6.375rem;
+  }
+
+  .footer__container {
     display: flex;
     flex-direction: row-reverse;
     gap: 2rem;
     justify-content: space-between;
-    padding: 7.25rem 7.5rem 6.375rem;
+    margin-inline: auto;
+    max-width: 75rem;
   }
 
   .footer .footer__newsletter {
