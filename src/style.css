@@ -3,11 +3,13 @@
 :root {
   --color-pink-100: hsl(321, 100%, 78%);
   --color-pink-200: hsl(322, 100%, 66%);
+  --color-pink-opaque: hsla(322, 100%, 66%, 0.2188);
   --color-red: hsl(0, 100%, 63%);
   --color-neutral-100: hsl(0, 0%, 100%);
   --color-neutral-200: hsl(207, 100%, 98%);
   --color-neutral-300: hsl(208, 12%, 55%);
   --color-neutral-400: hsl(192, 100%, 9%);
+  --color-neutral-opaque: hsla(192, 100%, 9%, 0.2231);
 
   --font-family-default: "Open Sans", sans-serif;
   --font-family-secondary: "Poppins", sans-serif;
