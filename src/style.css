@@ -192,6 +192,13 @@ button {
   width: 100%;
 }
 
+@media only screen and (min-width: 640px) {
+  .hero .content-container .text-container p {
+    margin-inline: auto;
+    max-width: 37.5rem;
+  }
+}
+
 @media only screen and (min-width: 1024px) {
   .hero .content-container {
     margin-bottom: 7.5rem;
@@ -204,8 +211,6 @@ button {
   }
 
   .hero .content-container .text-container p {
-    margin-inline: auto;
-    max-width: 37.5rem;
     font-size: var(--font-size-400);
   }
 }
